@@ -1,5 +1,7 @@
 FROM wiiuwut/core:1.0.0-beta4
 
+MAINTAINER Maschell <maschell@gmx.de>
+
 RUN mkdir /artifacts
 
 RUN git clone https://github.com/Maschell/libutils -b wut && cd libutils && git checkout 534388dae50df8dd8d496010fe944259b1bf2609
